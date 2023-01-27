@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+
+<body>
+    <pre>
+        Завдання:
+        Використовуючи if...else створіть сценарій, який запросить у користувача значення та виведе на екран:
+        1 якщо значення більше за нуль
+        -1 якщо значення менше нуля
+        0 якщо значення дорівнює 0
+    </pre>
+    <script>
+        let userValue = +prompt("Введіть любе цифрове значеня:");
+        // alert((userValue > 0) ? "1" : (userValue < 0) ? "-1" : "0");
+
+        if(userValue > 0){
+            alert("1 - значення більше за нуль");
+        } else if (userValue < 0){
+            alert("-1 - значення менше нуля");
+        } else {
+            alert("0 - значення дорівнює 0");
+        }
+
+    </script>
+</body>
+
+</html>
